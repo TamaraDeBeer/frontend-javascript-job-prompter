@@ -79,3 +79,26 @@ console.log("Marketing is een leuke afdeling om te werken. " + departments.marke
 console.log("De afdeling Customer Service heeft " + departments["customer-service"].numberOfEmployees + " medewerkers.")
 console.log("Sales is een uitdagende afdeling om te werken als Verkoopmanager. " + departments.sales.jobs[1].description);
 
+const userInput = prompt("Over welke afdeling wil je meer informatie? Kies uit: [marketing / sales / customer-service]");
+console.log(userInput.toLowerCase());
+
+// switch (userInput.toLowerCase()) {
+//     case "marketing":
+//         console.log("Je koos " + userInput.toLowerCase() + ". " + departments.marketing.description);
+//         break;
+//     case "sales":
+//         console.log("Je koos " + userInput.toLowerCase() + ". " + departments.sales.description);
+//         break;
+//     case "customer-service":
+//         console.log("Je koos " + userInput.toLowerCase() + ". " + departments["customer-service"].description);
+//         break;
+//     default:
+//         console.error("Ongeldige keuze. Probeer het opnieuw door de pagina te verversen.");
+//         break;
+// }
+
+
+
+
+
+
