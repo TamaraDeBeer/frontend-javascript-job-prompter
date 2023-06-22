@@ -118,7 +118,13 @@ switch (jobTitle) {
         break;
 }
 
+document.getElementById('role-title').textContent = departments[userInput].jobs[jobTitle].title;
+document.getElementById('department-description').textContent = departments[userInput].description;
+document.getElementById('role-description').textContent = departments[userInput].jobs[jobTitle].description;
 
 
-
-
+// error message werkt nog niet...
+// document.getElementById('error-message').textContent = departments[userInput].switch.default;
+// if (userInput !== "marketing" && userInput !== "sales" && userInput !== "customer-service") {
+//     document.getElementById('error-message').textContent = "Ongeldige keuze. Probeer het opnieuw door de pagina te verversen.";
+// }
